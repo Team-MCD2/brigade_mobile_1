@@ -1,0 +1,147 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Services - La Brigade Mobile">
+
+<!-- Top utility bar -->
+<div class="topbar">
+  <div class="container topbar__row">
+    <span>Réparation express</span>
+    <span>•</span>
+    <span>Garantie 6 mois</span>
+    <span>•</span>
+    <span>Toulouse, Cité Madrid</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header__row">
+    <a class="logo" href="/">
+      <img src="/logo-nouveau.png" alt="" />
+    </a>
+
+    <form class="search" role="search">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="text" placeholder="Rechercher" />
+    </form>
+
+    <nav class="header__nav">
+      <a href="#"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 10h18"/></svg><span>Nos tarifs</span></a>
+      <a href="#"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Trouver</span></a>
+      <a href="tel:0756916593"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Appeler</span></a>
+    </nav>
+  </div>
+
+  <nav class="subnav">
+    <div class="container subnav__row">
+      <a href="/services" class="active">Réparations</a>
+      <a href="/services" class="active">Services</a>
+      <a href="/boutique">Boutique</a>
+      <a href="/avis">Avis</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+      <a href="#" class="muted">Devis</a>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="pill">Services</span>
+      <h1>Typologie claire,<br/>engagement sur la <em>transparence</em>.</h1>
+      <p>Garantie 6 mois sur toutes nos interventions.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#">Devis</a>
+        <a class="btn btn--ghost" href="/boutique">Boutique</a>
+      </div>
+    </div>
+    <div class="hero__art">
+      <div class="blob"></div>
+      <img src="/mascotte-nobg.png" alt="" class="mascotte" />
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h2>Nos Services</h2>
+    </div>
+    <div class="products">
+      <article class="product">
+        <div class="product__img"></div>
+        <div class="product__body">
+          <span class="tag">~30 min</span>
+          <h3>Réparation écran iPhone à Toulouse</h3>
+          <p style="font-size:13px;color:var(--muted);margin-top:4px;">Remplacement vitre + OLED/LCD iPhone — express ~30 min, pièces qualité, garantie 6 mois. Devis en ligne instantané.</p>
+        </div>
+      </article>
+      <article class="product">
+        <div class="product__img"></div>
+        <div class="product__body">
+          <span class="tag">Rapide</span>
+          <h3>Changement de batterie smartphone</h3>
+          <p style="font-size:13px;color:var(--muted);margin-top:4px;">Batterie gonflée, autonomie en chute libre, téléphone qui s'éteint ? Remplacement rapide toutes marques.</p>
+        </div>
+      </article>
+      <article class="product">
+        <div class="product__img"></div>
+        <div class="product__body">
+          <span class="tag">MacBook & iMac</span>
+          <h3>Réparation MacBook & iMac</h3>
+          <p style="font-size:13px;color:var(--muted);margin-top:4px;">Écran, clavier, batterie, connectique, logiciel — MacBook Air/Pro et iMac à Toulouse.</p>
+        </div>
+      </article>
+      <article class="product">
+        <div class="product__img"></div>
+        <div class="product__body">
+          <span class="tag">Urgent</span>
+          <h3>Désoxydation après contact avec l'eau</h3>
+          <p style="font-size:13px;color:var(--muted);margin-top:4px;">Chute dans l'eau ? Éteignez l'appareil et venez vite : traitement anti-corrosion et tests.</p>
+        </div>
+      </article>
+      <article class="product">
+        <div class="product__img"></div>
+        <div class="product__body">
+          <span class="tag">USB-C / Lightning</span>
+          <h3>Connecteur de charge & port</h3>
+          <p style="font-size:13px;color:var(--muted);margin-top:4px;">Charge lente, câble qui bouge, port abîmé — remplacement du connecteur.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="container" style="text-align:center;padding:60px 0;">
+    <h2 style="font-size:32px;font-weight:800;margin-bottom:16px;">Cas non listé ?</h2>
+    <p style="color:var(--muted);margin-bottom:24px;">Le devis guidé couvre tout.</p>
+    <a class="btn btn--primary" href="#">Devis</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="/logo-nouveau.png" alt="" />
+      <p>—</p>
+    </div>
+    <div><h4>Services</h4><ul><li><a href="#">Devis en ligne</a></li><li><a href="/services">Services</a></li><li><a href="/services">Apple</a></li><li><a href="/services">Samsung</a></li></ul></div>
+    <div><h4>Boutique</h4><ul><li><a href="/boutique">Adresse</a></li><li><a href="/boutique">Horaires</a></li><li><a href="/boutique">Accès</a></li></ul></div>
+    <div><h4>Entreprise</h4><ul><li><a href="#">Devis en ligne</a></li><li><a href="/pro">Entreprises</a></li><li><a href="/a-propos">À propos</a></li></ul></div>
+    <div><h4>Info</h4><ul><li><a href="/avis">Avis</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul></div>
+  </div>
+  <div class="footer__bottom container">
+    <span>© La Brigade Mobile</span>
+    <span>—</span>
+  </div>
+</footer>
+
+</Layout>
