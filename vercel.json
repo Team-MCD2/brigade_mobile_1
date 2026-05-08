@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd brigade-astro && npm run build",
+  "outputDirectory": "brigade-astro/dist",
+  "installCommand": "cd brigade-astro && npm install"
+}
